@@ -3,4 +3,4 @@ This is my first github repository
 <br>
 Here is it
 <br>
-Author- Bilal Rafique
+Author- Bilal Rafique Malik
