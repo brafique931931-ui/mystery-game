@@ -1,0 +1,322 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Teaching & Data Analytics</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #102a43;
+            color: white;
+            padding: 25px 8%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        nav {
+            background: #243b53;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #69dbff;
+        }
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .hero h2 {
+            color: #102a43;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: 0 auto 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #087f8c;
+            color: white;
+            padding: 12px 24px;
+            margin: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background: #05636d;
+        }
+
+        section {
+            padding: 45px 8%;
+        }
+
+        section h2 {
+            color: #102a43;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+        }
+
+        .card h3 {
+            color: #087f8c;
+            margin-bottom: 12px;
+        }
+
+        .skills {
+            background: white;
+            text-align: center;
+        }
+
+        .skill {
+            display: inline-block;
+            background: #dff6f7;
+            color: #075c65;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 6px;
+        }
+
+        #contact {
+            text-align: center;
+            background: #e8f0f7;
+        }
+
+        footer {
+            background: #102a43;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Educator | Data Analyst | Python Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#analytics">Data Analytics</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome to My Professional Portfolio</h2>
+
+        <p>
+            I am an educator and aspiring data professional passionate
+            about teaching, data analysis, problem-solving, and technology.
+            Explore my teaching experience, technical skills, and projects.
+        </p>
+
+        <a href="#analytics" class="button">Explore My Projects</a>
+        <a href="#teaching" class="button">Teaching Experience</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                I have experience teaching Mathematics and Computer Science
+                and developing practical skills in data analytics.
+                I enjoy explaining complex concepts in simple language
+                and using data to discover meaningful insights.
+            </p>
+        </div>
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching Portfolio</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Mathematics</h3>
+                <p>
+                    Mathematics instruction, problem-solving,
+                    numerical practice, and examination preparation.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Computer Science</h3>
+                <p>
+                    Computer fundamentals, programming basics,
+                    practical exercises, and technical concepts.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Private Tutoring</h3>
+                <p>
+                    Individual learning support, concept clarification,
+                    practice questions, and student assessment.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="analytics">
+        <h2>Data Analytics Projects</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Customer Churn Analysis</h3>
+                <p>
+                    Explored customer churn data to identify patterns
+                    and potential factors associated with customer loss.
+                </p>
+                <p><strong>Tools:</strong> Python, Pandas, Seaborn</p>
+                <a href="https://github.com/" class="button">
+                    View Projects
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>IPL Data Analysis</h3>
+                <p>
+                    Analysed cricket statistics to compare batting
+                    performance and identify notable bowling figures.
+                </p>
+                <p><strong>Tools:</strong> Python, Pandas</p>
+                <a href="https://github.com/" class="button">
+                    View Projects
+                </a>
+            </div>
+
+            <div class="card">
+                <h3>Power BI Dashboard</h3>
+                <p>
+                    Present business information through interactive
+                    dashboards, KPIs, and visual reports.
+                </p>
+                <p><strong>Tools:</strong> Power BI, Excel, SQL</p>
+                <a href="https://github.com/" class="button">
+                    View Projects
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <span class="skill">Python</span>
+        <span class="skill">Pandas</span>
+        <span class="skill">NumPy</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Power BI</span>
+        <span class="skill">Excel</span>
+        <span class="skill">Statistics</span>
+        <span class="skill">Data Visualization</span>
+        <span class="skill">Matplotlib</span>
+        <span class="skill">Seaborn</span>
+        <span class="skill">Mathematics Teaching</span>
+        <span class="skill">Computer Science Teaching</span>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Interested in teaching, data analytics, or collaboration?</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/brafique931931-ui">
+                Visit My GitHub
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="www.linkedin.com/in/bilal-malik-2228b73b0">
+                Visit LinkedIn
+            </a>
+        </p>
+
+        <p>
+            Email: brafique931931@gmail.com
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Bilal Rafique. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
